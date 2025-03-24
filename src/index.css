@@ -1,0 +1,73 @@
+.logo{
+height: 14px;
+}
+.navbar-brand{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.f-1{
+  font-size: 23px;
+  color: #0B2F9F;
+}
+.nav-item{
+  font-size: 15px;
+  font-weight: 600;
+}
+.hero-h2{
+  font-weight: bold;
+}
+.navbar{
+  box-shadow: 5px 5px 10px #ccc;
+}
+.dec{
+  text-decoration: underline #000;
+}
+.details{
+  background-color: #C4D7FF;
+}
+.det{
+  font-size: 50px;
+}
+.fot-1{
+  background-color: #dedede;
+  border-bottom: 1px solid #ccc;
+}
+.fot-2{
+  background-color: #dedede;
+}
+.fot-logo{
+ height: 18px;
+}
+.bol{
+  font-weight: bold;
+}
+.right{
+  height: 200px;
+  border-right: 2px solid #ccc;
+}
+.fol-3{
+  font-size: 25px;
+  font-weight: bold;
+  color: #0B2F9F;
+}
+.fot-5{
+  font-size: 35px;
+  color: #0B2F9F;
+}
+.fot-last{
+  font-weight: bold;
+}
+.fot-2{
+  background-color: #dedede;
+  border-bottom: 1px solid #ccc;
+}
+.fot-4{
+  background-color: #dedede;
+}
+/* ========================================= */
+
+/* Shoes */
+
+.card{
+  box-shadow: 5px 5px 10px #ccc;
+}
