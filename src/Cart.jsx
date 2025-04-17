@@ -33,11 +33,12 @@ function remove(params) {
     <div>
       <div className="container mt-4">
       <div className="row">
-        <div className="col-md-6">
-    {
+        
+        
+        {
       cart.map((dd, index) => (
-            <div key={index}>
-              <div class="card text-center mb-3" width ={1+'rem'}>
+            <div key={index} className='col-md-3' >
+              <div class="card  text-center mb-3" width ={1+'rem'}>
               <img src={dd.image} class="card-img-top" alt="..."/>
                 <div class="card-body">
                   <h6>{dd.name}</h6>
@@ -55,10 +56,10 @@ function remove(params) {
             </div>
       ))
    }
-      </div>
-      <div className="col-md-6">
-      <h1>Price: {price}</h1>
-      </div>
+        <div>
+          <h1 className='mt-3'>Total Amount: {price}</h1>
+        </div>
+      
       </div>
       </div>
     </div>
